@@ -1,0 +1,13 @@
+prefix=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env
+exec_prefix=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env
+libdir=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env/lib
+sharedlibdir=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env/lib
+includedir=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

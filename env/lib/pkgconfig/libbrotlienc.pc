@@ -1,0 +1,12 @@
+prefix=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env
+exec_prefix=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlienc
+URL: https://github.com/google/brotli
+Description: Brotli encoder library
+Version: 1.0.9
+Libs: -L${libdir} -lbrotlienc
+Requires.private: libbrotlicommon >= 1.0.2
+Cflags: -I${includedir}

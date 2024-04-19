@@ -1,0 +1,5 @@
+#!/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env/bin/python3.12
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

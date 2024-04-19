@@ -1,0 +1,12 @@
+prefix=/Users/keivan/Desktop/ml-repos/testing-gpt-4-turbo-reading-level/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++  -lpthread
+Requires.private:  libsodium
+Cflags: -I${includedir} 
